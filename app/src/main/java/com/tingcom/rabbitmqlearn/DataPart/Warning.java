@@ -48,4 +48,10 @@ public class Warning {
     public void setTime(Date time) {
         this.time = time;
     }
+
+
+    @Override
+    public String toString() {
+        return "name:" + name + "  content:" + content;
+    }
 }

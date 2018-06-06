@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface RepositoryInterface {
 
-    void getWarnings(GetWarningsCallBack callBack);
+    void refreshWarnings(GetWarningsCallBack callBack);
 
     interface GetWarningsCallBack{
         void querySuccess(List<Warning> warnings);
